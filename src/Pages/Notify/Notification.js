@@ -5,6 +5,11 @@ import './Notification.css';
 import Leftbar from '../Sidebar/Leftbar';
 import Rightbar from '../Sidebar/Rightbar';
 
+<<<<<<< HEAD
+=======
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+>>>>>>> f4e728f9f3f94b14f117eb3f9e402cff39933dab
 
 function Notification() {
     const [value, setValue] = React.useState('1');
@@ -21,7 +26,26 @@ function Notification() {
                             <Leftbar />
                         </div>
                         <div className="contentSection">
-                                           
+
+                            <h5 className="notify-heading mb-5"><b>Notification</b></h5>
+                            <Tabs className="customtabs">
+                                <TabList>
+                                <Tab>All</Tab>
+                                <Tab>Mention</Tab>
+                                </TabList>
+                                <TabPanel>
+                                <div className="notify-content text-center">
+                                <h6>Nothing to see yet</h6>
+                                <p>When someone interacts with you, you'll find it here</p>
+                                </div>
+                                </TabPanel>                                
+                                <TabPanel>
+                                <div className="notify-content text-center">
+                                <h6>Nothing to see yet</h6>
+                                <p>When someone mention you, you'll find it here</p>
+                                </div>
+                                </TabPanel>        
+                             </Tabs>              
                         </div>                        
                         <div className="stickyPos">
                             <Rightbar />

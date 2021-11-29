@@ -1,0 +1,31 @@
+.customtabs .react-tabs__tab-list ,.customtabs .react-tabs__tab-panel{
+    box-shadow: 0 0 0;
+
+}
+.customtabs .react-tabs__tab{
+    background: transparent!important;
+    color: #000;
+    font-size: 16px;
+    font-weight: 800;
+}
+.customtabs .react-tabs__tab--selected{
+    color: teal!important;
+    border-bottom: 3px solid teal!important;
+}
+.customtabs .react-tabs__tab-list {
+    display: flex;
+    justify-content: space-around;
+}
+.notify-heading{
+    color: #000;
+
+}
+.notify-content h6{
+color: #000;
+font-weight: 800;
+}
+.notify-content p{
+color: #5c7192;
+font-size: 12px;
+
+}
