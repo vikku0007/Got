@@ -18,10 +18,10 @@ function Leftbar() {
                                 </li>
                                 <hr/>
                                 <li>
-                                    <Link to="" activeClassName="active"><i class="fas fa-home"></i> Home</Link>
+                                    <Link to="/" activeClassName="active"><i class="fas fa-home"></i> Home</Link>
                                 </li>
                                 <li>
-                                    <Link to="" activeClassName="active"><i class="fas fa-bell"></i> Notifications</Link>
+                                    <Link to="/notification" activeClassName="active"><i class="fas fa-bell"></i> Notifications</Link>
                                 </li>
                                 <li>
                                     <Link to="" activeClassName="active"><i class="fas fa-satellite-dish"></i> Live</Link>
