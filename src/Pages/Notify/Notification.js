@@ -5,11 +5,8 @@ import './Notification.css';
 import Leftbar from '../Sidebar/Leftbar';
 import Rightbar from '../Sidebar/Rightbar';
 
-import Box from '@mui/material/Box';
-import Tab from '@material-ui/core/Tab';
-import { TabContext } from '@material-ui/lab';
-import TabList from '@material-ui/lab/TabList';
-import TabPanel from '@material-ui/lab/TabPanel';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 function Notification() {
     const [value, setValue] = React.useState('1');
@@ -26,20 +23,25 @@ function Notification() {
                             <Leftbar />
                         </div>
                         <div className="contentSection">
-                            <Box sx={{ width: '100%', typography: 'body1' }}>
-                                <TabContext value={value}>
-                                    <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-                                    <TabList onChange={handleChange} aria-label="lab API tabs example">
-                                        <Tab label="Item One" value="1" />
-                                        <Tab label="Item Two" value="2" />
-                                        <Tab label="Item Three" value="3" />
-                                    </TabList>
-                                    </Box>
-                                    <TabPanel value="1">Item One</TabPanel>
-                                    <TabPanel value="2">Item Two</TabPanel>
-                                    <TabPanel value="3">Item Three</TabPanel>
-                                </TabContext>
-                            </Box>                 
+                            <h5 className="notify-heading mb-5"><b>Notification</b></h5>
+                            <Tabs className="customtabs">
+                                <TabList>
+                                <Tab>All</Tab>
+                                <Tab>Mention</Tab>
+                                </TabList>
+                                <TabPanel>
+                                <div className="notify-content text-center">
+                                <h6>Nothing to see yet</h6>
+                                <p>When someone interacts with you, you'll find it here</p>
+                                </div>
+                                </TabPanel>                                
+                                <TabPanel>
+                                <div className="notify-content text-center">
+                                <h6>Nothing to see yet</h6>
+                                <p>When someone mention you, you'll find it here</p>
+                                </div>
+                                </TabPanel>        
+                             </Tabs>                
                         </div>                        
                         <div className="stickyPos">
                             <Rightbar />
