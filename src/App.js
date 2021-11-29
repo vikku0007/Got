@@ -19,6 +19,7 @@ import Advertiserprofile from './Pages/Advertiser/Advertiserprofile';
 import Placeads from './Pages/Advertiser/Placeads';
 import Notfound from './Pages/Notfound';
 import Notification from './Pages/Notify/Notification';
+import Live from './Pages/Live/Live';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
           <Route exact path="/advertiserprofile" component={Advertiserprofile} />
           <Route exact path="/placeads" component={Placeads} />
           <Route exact path="/notification" component={Notification} />
+          <Route exact path="/live" component={Live} />
           <Route component={Notfound} />
         </Switch>        
       </Router>
