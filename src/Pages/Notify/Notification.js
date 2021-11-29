@@ -5,6 +5,7 @@ import './Notification.css';
 import Leftbar from '../Sidebar/Leftbar';
 import Rightbar from '../Sidebar/Rightbar';
 
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
@@ -23,6 +24,7 @@ function Notification() {
                             <Leftbar />
                         </div>
                         <div className="contentSection">
+
                             <h5 className="notify-heading mb-5"><b>Notification</b></h5>
                             <Tabs className="customtabs">
                                 <TabList>
@@ -41,7 +43,7 @@ function Notification() {
                                 <p>When someone mention you, you'll find it here</p>
                                 </div>
                                 </TabPanel>        
-                             </Tabs>                
+                             </Tabs>              
                         </div>                        
                         <div className="stickyPos">
                             <Rightbar />

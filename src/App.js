@@ -17,6 +17,7 @@ import Curatorprofile from './Pages/Curator/Curatorprofile';
 import Validatecontent from './Pages/Curator/Validatecontent';
 import Advertiserprofile from './Pages/Advertiser/Advertiserprofile';
 import Placeads from './Pages/Advertiser/Placeads';
+import Profile from './Pages/Profile/Profile';
 import Notfound from './Pages/Notfound';
 import Notification from './Pages/Notify/Notification';
 import Live from './Pages/Live/Live';
@@ -39,8 +40,12 @@ function App() {
           <Route exact path="/validatecontent" component={Validatecontent} />
           <Route exact path="/advertiserprofile" component={Advertiserprofile} />
           <Route exact path="/placeads" component={Placeads} />
+
+          <Route exact path="/profile" component={Profile} />
+
           <Route exact path="/notification" component={Notification} />
           <Route exact path="/live" component={Live} />
+
           <Route component={Notfound} />
         </Switch>        
       </Router>
