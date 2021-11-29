@@ -1,0 +1,18 @@
+label.radio-label1 {
+    display: block;
+    border: 1px solid #cccccc;
+    width: 200px;
+    text-align: center;
+    padding: 10px 0px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #eeeeee;
+}
+input.form-check-input:checked ~ .app{
+    color:#ffffff;
+    background: green;
+}
+input.form-check-input:checked ~ .rej{
+    color:#ffffff;
+    background:#ff0000;
+}

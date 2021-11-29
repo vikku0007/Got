@@ -1,0 +1,29 @@
+section.dropZone {
+    background: #eeeeee;
+    margin: 32px 0;
+    padding: 50px;
+    border-radius: 6px;
+    text-align:center;
+    cursor: pointer;    
+    border: 2px dashed #ccc;
+}
+section.dropZone p{
+    margin:0px;
+}
+.listDocs {
+    font-size: 16px;
+    background: #eeeeee;
+    margin: 16px 0;
+    padding: 4px 16px;
+    border-radius: 6px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listDocs span i{
+    margin-right: 16px;
+}
+.listDocs .dltIcon i{
+    color:#ff0000;
+    cursor: pointer;
+}

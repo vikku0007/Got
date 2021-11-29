@@ -1,0 +1,126 @@
+.userP{
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px -1px rgb(0 0 0 / 50%);
+    object-fit: cover;
+    object-position: center;
+    height: 491px;
+}
+.react-tabs__tab{border: none !important;}
+.react-tabs__tab-list{border: none !important;box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.5);}
+.react-tabs__tab--selected{
+  background: rgb(0,30,77)!important;
+  background: linear-gradient(90deg, rgba(0,30,77,1) 0%, rgba(0,109,137,1) 35%, rgba(38,166,98,1) 100%)!important;
+  color: #ff9800!important;
+  border-radius: 0px!important;
+}
+.react-tabs__tab{
+  background: #1d9bf0;
+  color:#ffffff;
+  padding: 6px 20.8px!important;
+  bottom: 0px!important;
+}
+.react-tabs__tab-panel{
+  text-align: justify;
+  box-shadow: 0px 0px 10px -1px rgb(0 0 0 / 50%);
+  padding: 16px;
+  border-radius: 6px;
+  height:440px;
+}
+.react-tabs__tab-panel p{
+  font-weight: 400;
+  font-size:16px;
+}
+.accordion-header button {
+    width: 100%;
+    text-align: left;
+    border: none!important;
+    padding: 8px 16px;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.accordion-header button:focus{
+    outline: none;
+    border:none;
+}
+.accordion-item {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px -1px rgb(0 0 0 / 50%);
+    border-radius: 6px;
+    margin-top: 24px;
+}
+.accordion-collapse{
+    padding: 16px;
+}
+.accordion-button i{
+    transform:rotate(180deg);
+}
+.accordion-button.collapsed i{
+    transform:rotate(0deg);
+}
+a.rdmore {
+    background: #1d9bf0;
+    color: #ffffff;
+    padding: 8px 16px;
+    display: inline-block;
+    border-radius: 6px;
+    text-decoration: none!important;
+    box-shadow: 0px 0px 10px -1px rgb(0 0 0 / 50%);
+}
+.radio {
+    position: relative; 	
+}
+.justify-content{
+    align-items: center;
+    justify-content: space-between;
+}
+.box label, .box h4 {
+    margin: 0px;
+}
+.box{
+    margin: 32px 0px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px -1px rgb(0 0 0 / 50%);
+    padding: 16px;
+}
+input.form-check-input {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    margin-left: 0px;
+    top: 0px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+.radio-label::before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border: 1px solid #cccccc;
+    background: #eeeeee;
+    margin-right: 16px;
+    display: inline-block;
+    vertical-align: sub;
+}
+.box label {
+    font-size: 16px;
+}
+input.form-check-input:checked ~ .radio-label.up::before{
+    background: #ff9800;
+    border-color: #ff9800;
+}
+input.form-check-input:checked ~ .radio-label.in::before{
+    background: #ff0000;
+    border-color: #ff0000;
+}
+input.form-check-input:checked ~ .radio-label.do::before{
+    background: #38dd7d;
+    border-color: #38dd7d;
+}
+.btn-close {
+    display: none;
+}
