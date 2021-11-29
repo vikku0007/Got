@@ -27,7 +27,7 @@ function Leftbar() {
                                     <Link to="" activeClassName="active"><i class="fas fa-satellite-dish"></i> Live</Link>
                                 </li>
                                 <li className="bNone">
-                                    <Link to="" activeClassName="active"><i class="fas fa-male"></i> Profile</Link>
+                                    <Link to="/profile" activeClassName="active"><i class="fas fa-male"></i> Profile</Link>
                                 </li>
                                 <hr/>
                                 <li>

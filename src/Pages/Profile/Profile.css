@@ -1,0 +1,224 @@
+.main-profile {
+    display: flex;
+    background: #fff;
+    box-shadow: 0px 0px 7px 6px rgb(0 0 0 / 2%);
+    border-radius: 10px;
+    flex-direction: column;
+}
+.main-profile2 {
+    cursor: pointer;
+    height: 199px;
+    overflow: hidden;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #eeeff3;
+}
+.jss1641 {
+    position: relative;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+.jss1642 {
+    top: -62px;
+    left: 0;
+    cursor: pointer;
+    position: absolute;
+}
+.jss1642 .MuiAvatar-colorDefault {
+    background-color: #eeeff3;
+}
+.jss1643 {
+    width: 134px;
+    border: 0;
+    height: 134px;
+    background: #fff;
+    box-shadow: 0 0 0 4px #fff;
+    border-radius: 50%;
+}
+svg {
+    color: #6e7187;
+    font-size: 22px;
+}
+.jss1644 {
+    display: flex;
+    margin-top: 13px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.jss150.MuiButton-outlined {
+    color: #232255;
+    border: 1px solid #232255;
+}
+.jss1731 {
+    padding: 0px 20px;
+    max-width: 300px;
+    min-height: 39px;
+    border-radius: 50px;
+}
+.jss1731 .MuiButton-label {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.jss1670 {
+    width: 100%;
+    display: flex;
+    margin-top: 29px;
+    align-items: center;
+}
+.jss1647 {
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 800;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.jss1648 {
+    color: #4d6384;
+    font-size: 15px;
+    margin-top: 4px;
+    line-height: 1.33;
+}
+.jss1649 {
+    margin-top: 25px;
+    word-break: break-word;
+    margin-bottom: 20px;
+}
+.jss1650 {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.jss1656 {
+    color: #5c7192;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    margin-top: 8px;
+    align-items: center;
+}
+.jss1656 .subItem {
+    display: flex;
+    position: relative;
+    max-width: 100%;
+    align-items: center;
+    font-weight: 400;
+    line-height: 130%;
+    white-space: nowrap;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+.jss1656 .subItem:last-child {
+    margin-right: 0;
+}
+.jss1656 .subItem svg {
+    color: #5c7192;
+    flex-shrink: 0;
+    margin-left: 3px;
+    margin-right: 7px;
+}
+.MuiAvatar-root {
+   
+    overflow: hidden;
+  
+}
+.jss99 a:first-child {
+    margin-right: 24px;
+}
+.jss389 {
+    display: flex;
+    margin-top: 16px;
+}
+.jss100 {
+    color: #000;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 19px;
+    margin-right: 5px;
+}
+.jss102 {
+    color: #5c7192;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+}
+.jss392 {
+    color: #5c7192;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+}
+.jss391::after {
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    height: 1px;
+    content: ' ';
+    opacity: 0;
+    position: absolute;
+    background-color: #5c7192;
+}
+span.jss1662 {
+    margin-left: 4px;
+}
+
+a.jss1654 {
+    margin-right: 24px;
+    margin-top: 16px;
+    font-size: 16px;
+}
+.jss1652 {
+    margin-top: 16px;
+}
+span.jss1653 {
+    margin-right: 5px;
+}
+span.jss1655.jss1651 {
+    color: #5c7192;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 130%;
+}
+span.jss1653 {
+    color: #000;
+}
+.customtabs .react-tabs__tab-list ,.customtabs .react-tabs__tab-panel{
+    box-shadow: 0 0 0;
+
+}
+.customtabs .react-tabs__tab{
+    background: transparent!important;
+    color: #000;
+    font-size: 16px;
+}
+.customtabs .react-tabs__tab--selected{
+    color: teal!important;
+    border-bottom: 3px solid teal!important;
+}
+.customtabs .react-tabs__tab-list {
+    display: flex;
+    justify-content: space-around;
+}
+ul.react-tabs__tab-list {
+    margin-top: 23px;
+}
+.customtabs {
+    border-bottom: 2px solid #eeeff3 !important;
+    justify-content: space-between;
+}
+.tab-text h6{
+    font-size:16px;
+}
+.tab-text p{
+    font-size:12px;
+}
+.tab-text a{
+    font-size:14px;
+}
+.tab-text{
+    margin-top:20px;
+}
