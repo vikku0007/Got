@@ -5,11 +5,9 @@ import './Notification.css';
 import Leftbar from '../Sidebar/Leftbar';
 import Rightbar from '../Sidebar/Rightbar';
 
-<<<<<<< HEAD
-=======
+
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
->>>>>>> f4e728f9f3f94b14f117eb3f9e402cff39933dab
 
 function Notification() {
     const [value, setValue] = React.useState('1');
