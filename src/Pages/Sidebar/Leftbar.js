@@ -31,7 +31,7 @@ function Leftbar() {
                                 </li>
                                 <hr/>
                                 <li>
-                                    <Link to="" activeClassName="active"><i class="fas fa-cog"></i> Settings</Link>
+                                    <Link to="/setting" activeClassName="active"><i class="fas fa-cog"></i> Settings</Link>
                                 </li>
                                 <li>
                                     <Link to="" activeClassName="active"><i class="fas fa-question-circle"></i> Help</Link>

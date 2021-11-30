@@ -1,0 +1,109 @@
+.verticalTabs ul{
+    margin:0;
+    padding:0;
+}
+.verticalTabs .react-tabs__tab-list{
+    background: transparent;
+    box-shadow:0 0 0;
+}
+.verticalTabs .react-tabs__tab{
+    background: transparent!important;
+    color:#000000;
+    font-size:16px;
+    position: relative;
+    width:100%;
+    display: block;
+    padding:12px 32px 12px 0px!important;
+    border-right: 1px solid #ccceee!important;
+}
+.verticalTabs .react-tabs__tab--selected{
+    color: teal!important;
+    border-right:2px solid teal!important;
+}
+.verticalTabs .react-tabs__tab:after{
+    content: '>';
+    position: absolute;
+    right:20px;
+}
+.red{color:#ff0000;}
+.verticalTabs .react-tabs__tab:last-child:after{
+    content: '';
+    display:none;
+}
+.verticalTabs{
+margin-left: 50px;
+}
+.react-tabs__tab-panel{
+    box-shadow: 0 0 0;
+    border: none;
+}
+#conSe{width: 78%;}
+.verticalTabs .react-tabs__tab-panel{
+    padding: 0;
+}
+label.form-label {
+    font-size: 14px;
+}
+.form-control{font-size: 12px;}
+.email-veri{
+    color: #6e7187;
+    font-size: 16px;
+    font-weight: 500;    
+    margin-bottom: 10px;
+}
+.email-com{
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+}
+.Phone-btn{
+    padding: 0px 20px;
+    min-height: 35px;
+    border-radius: 50px;
+    color: #ffffff;
+    background: teal;
+    font-size: 13px;
+    border: none;
+}
+.btn-secondary:hover{
+    background: teal;
+    border: none;
+}
+#lang input.form-check-input {
+    position: relative;
+    opacity: 1;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+#lang .form-check-label{font-size: 14px;}
+.lang-com{
+    font-size: 12px!important;
+    color: #6e7187;
+    margin-bottom: 16px;
+}
+#mute .react-tabs__tab{
+border: none!important;
+text-align: center;
+
+}
+#mute .react-tabs__tab:after{
+    content:"";
+    display: none;
+    
+}
+.dlt{   
+  color: #ff0000;
+  font-size: 16px;
+  text-align: center!important;
+  margin-top: 12px;
+}
+p.delete-com{
+    font-size: 14px;
+    font-weight: 600;
+}
+p.delete-veri{
+    font-size: 14px;
+    color: #6e7187;
+}

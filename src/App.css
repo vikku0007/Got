@@ -42,6 +42,10 @@
   padding: 18% 14rem 18% 40px;
   border-radius: 16px 0px 0px 16px;
 }
+button:focus{
+  outline: none!important;
+  box-shadow: 0 0 0!important;
+}
 button.myBtn {
   background: rgb(22,137,215);
   background: linear-gradient(
