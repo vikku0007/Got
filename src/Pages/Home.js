@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-import { Container,Input } from "reactstrap";
+import {Container,Input } from "reactstrap";
 import './Users/News.css';
 import Adver from '../Images/Ad1.jpg';
 import Adver1 from '../Images/ad2.jpg';

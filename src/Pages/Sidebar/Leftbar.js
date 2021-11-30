@@ -1,15 +1,18 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Link } from "react-router-dom";
+import { Modal,Form } from "react-bootstrap";
+import {Col,Container,Row} from "reactstrap";
+import Downimg from "../../Images/downimg.png";
 // import './Users/News.css';
 import Button from "@restart/ui/esm/Button";
+
 // import InputEmoji from "react-input-emoji";
 
 function Leftbar() {
-    // const [text, setText] = useState("");
-
-    // function handleOnEnter(text) {
-    //     console.log("enter", text);
-    // }
+    const [show, setShow] = useState(false);
+;
+const handleClose = () => setShow(false);
+const handleShow = () => setShow(true);
     return (
         <>
            <ul className="userlink">
@@ -37,10 +40,57 @@ function Leftbar() {
                                     <Link to="" activeClassName="active"><i class="fas fa-question-circle"></i> Help</Link>
                                 </li>
                                 <li className="bNone">
-                                    <Link to="" activeClassName="active"><i class="fas fa-download"></i> Download</Link>
+                                    <Link to="" onClick={handleShow}  activeClassName="active"><i class="fas fa-download"></i> Download</Link>
                                 </li>
             </ul>
+
            
+<div className="down-pop">
+            <Modal show={show} id="popdown" onHide={handleClose}>
+    
+         <Modal.Body>
+         
+         <Row>
+        
+  <Col md="6">
+  <div className="popbtn">
+<div className="poptext">
+    <h3>Express yourself freely</h3>
+</div>
+<div className="bttn">
+     <div className="playbtn">
+   <Link className="btn btn-google text-white" to="#" title="Google Play">Google Play</Link>
+   <i class="fab fa-google-play"></i>
+    </div>
+    <div className="playbtn mt-3">
+   <Link className="btn btn-apple text-white" to="#" title="Google Play">App Store</Link>
+   <i class="fab fa-apple"></i>
+ 
+    </div>
+    </div>
+  </div>
+  </Col>
+
+ 
+  <Col md="6">
+  <div className="popimg">
+<img src={Downimg} alt={Downimg} />
+  </div>
+  </Col>
+  
+</Row>
+
+         </Modal.Body>
+         <Modal.Footer>
+            <Button variant="secondary" onClick={handleClose}>
+            Close
+            </Button>
+            <Button variant="primary" onClick={handleClose}>
+            Save Changes
+            </Button>
+         </Modal.Footer>
+      </Modal>
+      </div>  
         </>
     );
 }

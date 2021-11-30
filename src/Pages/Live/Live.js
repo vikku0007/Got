@@ -10,7 +10,6 @@ import Live4 from '../../Images/live4.jpeg';
 import Live5 from '../../Images/live5.jpeg';
 import Live6 from '../../Images/live6.jpeg';
 import Button from "@restart/ui/esm/Button";
-import ReactTooltip from 'react-tooltip';
 
 
 import Leftbar from '../Sidebar/Leftbar';
