@@ -16,7 +16,7 @@ const handleShow = () => setShow(true);
     return (
         <>
            <ul className="userlink">
-                                <li className="bNone">
+                                <li className="bNone padt0">
                                     <Button className="createBtn"><i class="far fa-edit"></i> Create Post</Button>
                                 </li>
                                 <hr/>
@@ -37,7 +37,7 @@ const handleShow = () => setShow(true);
                                     <Link to="/setting" activeClassName="active"><i class="fas fa-cog"></i> Settings</Link>
                                 </li>
                                 <li>
-                                    <Link to="" activeClassName="active"><i class="fas fa-question-circle"></i> Help</Link>
+                                    <Link to="/help" activeClassName="active"><i class="fas fa-question-circle"></i> Help</Link>
                                 </li>
                                 <li className="bNone">
                                     <Link to="" onClick={handleShow}  activeClassName="active"><i class="fas fa-download"></i> Download</Link>

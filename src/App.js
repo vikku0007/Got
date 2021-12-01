@@ -23,6 +23,7 @@ import Notfound from './Pages/Notfound';
 import Notification from './Pages/Notify/Notification';
 import Live from './Pages/Live/Live';
 import Setting from './Pages/Setting/Setting';
+import Help from './Pages/Help/Help';
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           <Route exact path="/notification" component={Notification} />
           <Route exact path="/live" component={Live} />
           <Route exact path="/setting" component={Setting} />
+          <Route exact path="/help" component={Help} />
 
           <Route component={Notfound} />
         </Switch>        

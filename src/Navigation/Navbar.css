@@ -25,9 +25,8 @@ body{
     box-shadow: none;
 }
 .twtBg, .dropdown-menu {
-    background: #EAE7DC;
-    /* background: linear-gradient(
-90deg, rgba(0,30,77,1) 0%, rgba(0,109,137,1) 35%, rgba(38,166,98,1) 100%); */
+    background: #BDBDBD;
+    box-shadow: 0px 0px 10px -1px rgb(0 0 0 / 80%);
     position: fixed;
     width: 100%;
     left: 0;
@@ -44,7 +43,12 @@ img.pp {
     background:#1d9bf0;
     text-decoration:none;
 }
-.logo{max-width: 60px;}
+.logo{max-width: 30px;}
+.collapse .dropdown-menu.show{
+    transform: translate(0px, 40px)!important;
+    background: #bdbdbd;
+}
+.mt-5{margin-top: 6rem!important;}
 @media (max-width:720px){
     .nav-item a{padding: 0;margin-top:10px;display: block;}
 }
