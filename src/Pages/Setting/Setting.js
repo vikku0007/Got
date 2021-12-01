@@ -1,6 +1,6 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Container, Row, Col, Button } from "reactstrap";
-import { Form } from "react-bootstrap";
+import { Form, Modal } from "react-bootstrap";
 import './Setting.css';
 import Leftbar from '../Sidebar/Leftbar';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -11,6 +11,10 @@ const [value, setValue] = React.useState('1');
 const handleChange = (event, newValue) => {
 setValue(newValue);
 };
+const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 return (
 <>
 <div className="mainBody">
@@ -34,11 +38,9 @@ return (
                      <div className="devider"></div>
                      <Tab>Delete Account</Tab>
                      <div className="devider"></div>
-                     <Tab>
-                        <Link to="#" className="red">
-                        Logout</Link>
-                     </Tab>
                   </TabList>
+                  <Link to="#" className="red f-16" onClick={handleShow}>
+                        Logout</Link>
                   </Col>
                   <Col md={6} xs={12}>
                   
@@ -198,7 +200,7 @@ return (
                     <h5 className="notify-heading mb-3"><b>Delete Account</b></h5>
                     
                   <div className="d-flex mb-3">
-                    <div className="live-left">
+                    <div className="live-left mr-3">
                             <div className="live-image">
                             <i class="fas fa-user"></i>          
                             </div>
@@ -206,8 +208,7 @@ return (
                         <div className="live-right">
                                             <div className="live-content">
                                                 <p><b>rupali00007</b></p>
-                                                <p>@rupali00007</p>
-                                                
+                                                <p>@rupali00007</p>                                                
                                                 </div>
                                                 </div>
                     </div>
@@ -215,7 +216,7 @@ return (
                     <p className="delete-veri mt-3">You are about to start the process of deleting your GETTR account and all of its data. Your public profile, posts, and post replies will be deleted.</p>
                     <p className="delete-veri mt-5">You cannot undo this action, and we cannot restore your GETTR account.</p>
                     <div className="text-center  mt-3">
-                        <Link to="#" className="dlt">Delete Account</Link>
+                        <Link to="#" className="dlt" onClick={handleShow}>Delete Account</Link>
                     </div>
                   </TabPanel>
                   </Col>
@@ -223,7 +224,24 @@ return (
             </Tabs>
          </div>
       </div>
+      <Modal show={show} onHide={handleClose} id="logout-modal">        
+        <Modal.Body>
+        <h3 className="text-center mt-3">rupali00007</h3>
+        <p className="text-center mt-3">Are you sure you want to log out<br /> of GETTR?</p>
+
+        </Modal.Body>
+        <Modal.Footer>
+          <Button variant="primary" onClick={handleClose}>
+          Cancle
+          </Button>
+          <Button variant="danger" color="danger" onClick={handleClose}>
+           Logout 
+          </Button>
+        </Modal.Footer>
+      </Modal>
    </Container>
+   
+   
 </div>
 </>
 );
