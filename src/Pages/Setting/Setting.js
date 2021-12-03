@@ -70,12 +70,12 @@ return (
                   <TabPanel>
                     <h5 className="notify-heading mb-3"><b>Phone</b></h5>
                     <p className="email-com mt-5">You have not added any phone number.</p>
-                    <p className="email-veri mt-3">Your phone number will be used to regain access to your GETTR account if you forget your password.</p>
+                    <p className="email-veri mt-3">Your phone number will be used to regain access to your GoT account if you forget your password.</p>
                     <Button className="Phone-btn mt-3" type="button">Add Phone</Button>
                   </TabPanel>
                   <TabPanel>
                   <h5 className="notify-heading mb-3"><b>Languages</b></h5>
-                    <p className="lang-com mt-3">You’ll be able to see GETTR, people, and trends in the language you choose.</p>
+                    <p className="lang-com mt-3">You’ll be able to see GoT, people, and trends in the language you choose.</p>
                   <Form id="lang">
                     {['radio'].map((type) => (
                         <div key={`English-English-${type}`} className="mb-3">
@@ -212,9 +212,9 @@ return (
                                                 </div>
                                                 </div>
                     </div>
-                    <p className="delete-com mt-3">This will delete your GETTR account</p>
-                    <p className="delete-veri mt-3">You are about to start the process of deleting your GETTR account and all of its data. Your public profile, posts, and post replies will be deleted.</p>
-                    <p className="delete-veri mt-5">You cannot undo this action, and we cannot restore your GETTR account.</p>
+                    <p className="delete-com mt-3">This will delete your GoT account</p>
+                    <p className="delete-veri mt-3">You are about to start the process of deleting your GoT account and all of its data. Your public profile, posts, and post replies will be deleted.</p>
+                    <p className="delete-veri mt-5">You cannot undo this action, and we cannot restore your GoT account.</p>
                     <div className="text-center  mt-3">
                         <Link to="#" className="dlt" onClick={handleShow}>Delete Account</Link>
                     </div>
@@ -227,7 +227,7 @@ return (
       <Modal show={show} onHide={handleClose} id="logout-modal">        
         <Modal.Body>
         <h3 className="text-center mt-3">rupali00007</h3>
-        <p className="text-center mt-3">Are you sure you want to log out<br /> of GETTR?</p>
+        <p className="text-center mt-3">Are you sure you want to log out<br /> of GoT?</p>
 
         </Modal.Body>
         <Modal.Footer>

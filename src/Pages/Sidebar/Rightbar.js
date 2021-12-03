@@ -18,37 +18,37 @@ function Rightbar() {
                                 <img src="https://c.tenor.com/qVGPadGbVvMAAAAC/britain-flag.gif" class="jss958" alt="img" draggable="false" /> 
                                 <div className="newsPost">
                                     <Link to="">
-                                        <h4 className="font14">Tickets on Sale for GETTR's EXCLUSIVE London 'Counter Conference'</h4>
+                                        <h4 className="font14">Tickets on Sale for GoT'sEXCLUSIVE London 'Counter Conference'</h4>
                                         <p className="font12">Ft. Nigel Farage, Laurence Fox, Jason Miller, Raheem Kassam, etc. </p>
                                     </Link>
                                 </div>   
                                 <div className="newsPost">
                                     <Link to="">
-                                        <h4 className="font14">Tickets on Sale for GETTR's EXCLUSIVE London 'Counter Conference'</h4>
+                                        <h4 className="font14">Tickets on Sale for GoT'sEXCLUSIVE London 'Counter Conference'</h4>
                                         <p className="font12">Ft. Nigel Farage, Laurence Fox, Jason Miller, Raheem Kassam, etc. </p>
                                     </Link>
                                 </div> 
                                 <div className="newsPost">
                                     <Link to="">
-                                        <h4 className="font14">Tickets on Sale for GETTR's EXCLUSIVE London 'Counter Conference'</h4>
+                                        <h4 className="font14">Tickets on Sale for GoT'sEXCLUSIVE London 'Counter Conference'</h4>
                                         <p className="font12">Ft. Nigel Farage, Laurence Fox, Jason Miller, Raheem Kassam, etc. </p>
                                     </Link>
                                 </div> 
                                 <div className="newsPost">
                                     <Link to="">
-                                        <h4 className="font14">Tickets on Sale for GETTR's EXCLUSIVE London 'Counter Conference'</h4>
+                                        <h4 className="font14">Tickets on Sale for GoT'sEXCLUSIVE London 'Counter Conference'</h4>
                                         <p className="font12">Ft. Nigel Farage, Laurence Fox, Jason Miller, Raheem Kassam, etc. </p>
                                     </Link>
                                 </div>   
                                 <div className="newsPost">
                                     <Link to="">
-                                        <h4 className="font14">Tickets on Sale for GETTR's EXCLUSIVE London 'Counter Conference'</h4>
+                                        <h4 className="font14">Tickets on Sale for GoT'sEXCLUSIVE London 'Counter Conference'</h4>
                                         <p className="font12">Ft. Nigel Farage, Laurence Fox, Jason Miller, Raheem Kassam, etc. </p>
                                     </Link>
                                 </div> 
                                 <div className="newsPost">
                                     <Link to="">
-                                        <h4 className="font14">Tickets on Sale for GETTR's EXCLUSIVE London 'Counter Conference'</h4>
+                                        <h4 className="font14">Tickets on Sale for GoT'sEXCLUSIVE London 'Counter Conference'</h4>
                                         <p className="font12">Ft. Nigel Farage, Laurence Fox, Jason Miller, Raheem Kassam, etc. </p>
                                     </Link>
                                 </div>                           
