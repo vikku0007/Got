@@ -46,13 +46,18 @@ button:focus{
   outline: none!important;
   box-shadow: 0 0 0!important;
 }
-button.myBtn {
+.myBtn {
   background: rgb(22,137,215);
   background: linear-gradient(
-90deg, rgba(22,137,215,1) 0%, rgba(26,148,231,1) 35%, rgba(15,117,186,1) 100%);
+90deg, rgba(22,137,215,1) 0%, rgba(26,148,231,1) 35%, rgba(15,117,186,1) 100%)!important;
   border-color: #1079c0;
   max-width: 250px;
   width: 100%;
+  display:inline-block;
+  color: #ffffff!important;
+  text-decoration:none!important;
+  padding:6px 16px;
+  border-radius:6px;
 }
 .l {
   width: 40%;
@@ -145,6 +150,7 @@ i.fab.fa-google-play {
 
 .inField input{
   padding-left: 40px;
+  height: 42px;
 }
 .inField{position: relative;}
 .btn-primary{

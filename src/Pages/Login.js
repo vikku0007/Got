@@ -45,7 +45,7 @@ const Login = () => {
                                             <Link to="/" className="text-red">Forgot Password</Link>
                                         </div>
                                         <div className="form-group text-center">
-                                            <Button className="myBtn">Login</Button>
+                                            <Link to="/home" className="myBtn">Login</Link>
                                         </div>
                                         <div className="form-group text-center">
                                             <Link to="/" className="clWhite">Create Account</Link>
