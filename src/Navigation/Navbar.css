@@ -1,14 +1,14 @@
 body{
     font-family: 'Merriweather Sans', sans-serif;
     font-size:1.3rem;
-    background:#f7f8f9;
+    background:#FFFFFF;
 }
 .navigateBar{
     background-color:teal;
     font-family: 'Noto Sans', sans-serif;
 }
 .nav-item a{
-    color:#ffffff;
+    color:#000000;
     padding:0px 16px;
 }
 .nav-item:last-child a{padding:0px;}
@@ -25,8 +25,8 @@ body{
     box-shadow: none;
 }
 .twtBg, .dropdown-menu {
-    background: #BDBDBD;
-    box-shadow: 0px 0px 10px -1px rgb(0 0 0 / 80%);
+    background: #FBF7F5;
+    box-shadow: 0px 0px 10px -1px rgb(0 0 0 / 30%);
     position: fixed;
     width: 100%;
     left: 0;
@@ -43,10 +43,13 @@ img.pp {
     background:#1d9bf0;
     text-decoration:none;
 }
-.logo{max-width: 30px;}
+.logo{max-width: 80px;width:100%;}
 .collapse .dropdown-menu.show{
     transform: translate(0px, 40px)!important;
-    background: #bdbdbd;
+    background: #fbf7f5;
+}
+a:hover{
+    text-decoration: none;
 }
 .mt-5{margin-top: 6rem!important;}
 @media (max-width:720px){

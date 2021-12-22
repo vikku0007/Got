@@ -32,8 +32,8 @@ function App() {
     <Router>
       <Navbar /> 
         <Switch>
-          <Route exact path="/" component={Home} /> 
-          <Route exact path="/login" component={Login} />
+          <Route exact path="/home" component={Home} /> 
+          <Route exact path="/" component={Login} />
           <Route exact path="/userprofile" component={Userpro} />
           <Route exact path="/creatorprofile" component={Creatorprofile} />
           <Route exact path="/news" component={News} />
@@ -43,15 +43,11 @@ function App() {
           <Route exact path="/validatecontent" component={Validatecontent} />
           <Route exact path="/advertiserprofile" component={Advertiserprofile} />
           <Route exact path="/placeads" component={Placeads} />
-
           <Route exact path="/profile" component={Profile} />
-       
-
           <Route exact path="/notification" component={Notification} />
           <Route exact path="/live" component={Live} />
           <Route exact path="/setting" component={Setting} />
           <Route exact path="/help" component={Help} />
-
           <Route component={Notfound} />
         </Switch>        
       </Router>

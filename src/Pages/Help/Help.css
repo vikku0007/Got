@@ -17,8 +17,8 @@
     border-right: 1px solid #ccceee!important;
 }
 .verticalTabs .react-tabs__tab--selected{
-    color: teal!important;
-    border-right:2px solid teal!important;
+    color: #bea895!important;
+    border-right: 2px solid #bea895!important;
 }
 .verticalTabs .react-tabs__tab:after{
     content: '>';
@@ -61,12 +61,12 @@ label.form-label {
     min-height: 35px;
     border-radius: 50px;
     color: #ffffff;
-    background: teal;
+    background: #bea895;
     font-size: 13px;
     border: none;
 }
 .btn-secondary:hover{
-    background: teal;
+    background: #bea895;
     border: none;
 }
 #lang input.form-check-input {
@@ -150,7 +150,7 @@ div#logout-modal {
     box-shadow: 0 0 0;
 }
 #conSe .accordion-header button{
-    padding:8px 0px;
+    padding:8px 16px;
     font-size: 16px;
 }
 #conSe .accordion-body, #conSe .accordion-collapse{
@@ -177,4 +177,8 @@ p.kmm{
 p.kmmm{
     font-size: 14px;
     color: #6e7187;
+}
+div.privacyTabs {
+    height: calc(100vh - 130px);
+    overflow-y: auto;
 }

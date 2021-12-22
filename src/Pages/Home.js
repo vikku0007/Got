@@ -45,7 +45,7 @@ function Home() {
                                             <Input id="exampleFile" name="file" type="file"/>
                                         </div>
                                         <div className="emg mt-3 mr-3 ml-3">
-                                            <i class="fas fa-smile-beam"></i> Emogi
+                                            <i class="fas fa-smile-beam"></i> Emoji
                                             {/* <InputEmoji value={text} onChange={setText} cleanOnEnter onEnter={handleOnEnter}  placeholder="Type a message" /> */}
                                         </div>                                    
                                         <div className="gifs mt-3">
