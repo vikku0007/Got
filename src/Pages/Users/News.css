@@ -69,7 +69,7 @@
 }
 button.createBtn {
     border: none;
-    background: teal;
+    background: #bea895;
     color: #fff;
     padding: 8px 16px;
     display: inline-block;
@@ -84,18 +84,19 @@ button.createBtn {
     margin-right:16px;
 }
 hr{
-    border-top: 2px solid rgb(0 128 128);
+    border-top: 2px solid rgb(190 168 149);
 }
 .stickyPos {
     width: 22%;
     position:-webkit-sticky;
     position:sticky;
     height:100%;
-    top:0px;
+    top:130px;
 }
 .contentSection {
     width: 50%;
     margin-bottom: 50px;
+    margin-top: 10px;
 }
 .justifycontent{
     justify-content: space-between;
@@ -104,7 +105,7 @@ hr{
     margin-top: 120px;
 }
 .userlink li a:hover{
-    color:teal;
+    color:#bea895;
 }
 .postBox {
     box-shadow: rgb(0 0 0 / 2%) 0px 0px 7px 6px;
@@ -136,8 +137,9 @@ button.postBtn {
     padding: 8px 31px;
     font-size: 16px;
     border-radius: 30px;
-    background:#ccc;
+    background:#bea895;
     cursor: pointer;
+    color:#ffffff;
 }
 .gifs, .emg, .filesI {cursor: pointer;}
 .f18{font-size:22px;font-weight: 600;color:#000000;}
@@ -162,7 +164,7 @@ h4.nameTitle {
     color: gray;
 }
 a.followBtn {
-    background: darkblue;
+    background: #bea895;
     color: #ffffff;
     width: 100%;
     display: block;
@@ -177,7 +179,7 @@ a.followBtn {
 .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
     content: "prev";
     font-size: 20px!important;
-    background: teal;
+    background: #bea895;
     height: 34px;
     width: 34px;
     color: #fff;
@@ -188,7 +190,7 @@ a.followBtn {
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
     content: "next";
     font-size: 20px!important;
-    background: teal;
+    background: #bea895;
     height: 34px;
     width: 34px;
     color: #fff;
@@ -200,7 +202,7 @@ a.followBtn {
     background: #ffffff;
     box-shadow: rgb(0 0 0 / 2%) 0px 0px 7px 6px;
     border-radius: 10px;
-    padding: 16px;
+    padding:0px 16px 16px 16px;
 }
 img.jss958 {
     width: 100%;
@@ -230,11 +232,12 @@ h3.font20 {
     margin-top: 32px;
 }
 a.readMore {
-    background: teal;
+    background: #bea895;
     color: #ffffff;
     padding: 8px 16px;
     display: inline-block;
     font-size: 14px;
     border-radius: 30px;
     text-decoration: none!important;
+    margin: 16px 0px;
 }

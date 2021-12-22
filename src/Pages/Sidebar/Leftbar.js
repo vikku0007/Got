@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { Link } from "react-router-dom";
-import { Modal,Form } from "react-bootstrap";
-import {Col,Container,Row} from "reactstrap";
+import { Modal } from "react-bootstrap";
+import {Col, Row} from "reactstrap";
 import Downimg from "../../Images/downimg.png";
 // import './Users/News.css';
 import Button from "@restart/ui/esm/Button";
@@ -21,13 +21,13 @@ const handleShow = () => setShow(true);
                                 </li>
                                 <hr/>
                                 <li>
-                                    <Link to="/" activeClassName="active"><i class="fas fa-home"></i> Home</Link>
+                                    <Link to="/home" activeClassName="active"><i class="fas fa-home"></i> Home</Link>
                                 </li>
                                 <li>
-                                    <Link to="/notification" activeClassName="active"><i class="fas fa-bell"></i> Notifications</Link>
+                                    <Link to="/notification" activeClassName="active"><i class="fas fa-bell"></i> My following</Link>
                                 </li>
                                 <li>
-                                    <Link to="/live" activeClassName="active"><i class="fas fa-satellite-dish"></i> Live</Link>
+                                    <Link to="/live" activeClassName="active"><i class="fas fa-satellite-dish"></i> Recommended for me</Link>
                                 </li>
                                 <li className="bNone">
                                     <Link to="/profile" activeClassName="active"><i class="fas fa-male"></i> Profile</Link>
@@ -40,7 +40,7 @@ const handleShow = () => setShow(true);
                                     <Link to="/help" activeClassName="active"><i class="fas fa-question-circle"></i> Help</Link>
                                 </li>
                                 <li className="bNone">
-                                    <Link to="" onClick={handleShow}  activeClassName="active"><i class="fas fa-download"></i> Download</Link>
+                                    <Button onClick={handleShow}  activeClassName="active" className="downBtn"><i class="fas fa-download"></i> Download</Button>
                                 </li>
             </ul>
 

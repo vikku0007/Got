@@ -43,15 +43,11 @@ function App() {
           <Route exact path="/validatecontent" component={Validatecontent} />
           <Route exact path="/advertiserprofile" component={Advertiserprofile} />
           <Route exact path="/placeads" component={Placeads} />
-
           <Route exact path="/profile" component={Profile} />
-       
-
           <Route exact path="/notification" component={Notification} />
           <Route exact path="/live" component={Live} />
           <Route exact path="/setting" component={Setting} />
           <Route exact path="/help" component={Help} />
-
           <Route component={Notfound} />
         </Switch>        
       </Router>

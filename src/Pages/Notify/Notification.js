@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Nav, NavItem, NavLink, Row, Col, Card, CardTitle, CardText, Button, TabContent, TabPane } from "reactstrap";
+import { Container } from "reactstrap";
 import './Notification.css';
 
 import Leftbar from '../Sidebar/Leftbar';

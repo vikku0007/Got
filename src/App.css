@@ -46,22 +46,23 @@ button:focus{
   outline: none!important;
   box-shadow: 0 0 0!important;
 }
-.myBtn {
-  background: rgb(22,137,215);
-  background: linear-gradient(
-90deg, rgba(22,137,215,1) 0%, rgba(26,148,231,1) 35%, rgba(15,117,186,1) 100%)!important;
-  border-color: #1079c0;
+a.clWhite, a.text-red{color:#000000;}
+a.myBtn {
+  background: rgb(190 168 149);
+    background: linear-gradient( 
+90deg, rgb(190 168 149) 0%, rgb(190 168 149) 35%, rgb(190 168 149) 100%);
+    border-color: #bea895;
   max-width: 250px;
   width: 100%;
-  display:inline-block;
-  color: #ffffff!important;
-  text-decoration:none!important;
-  padding:6px 16px;
-  border-radius:6px;
+  color:#ffffff;
+  display: inline-block;
+  text-decoration: none!important;
+  padding: 6px 12px;
+  border-radius: 4px;
 }
 .l {
   width: 40%;
-  padding: 7% 16px;
+  padding: 6% 16px;
 }
 img.iconF {
   position: absolute;
@@ -150,7 +151,7 @@ i.fab.fa-google-play {
 
 .inField input{
   padding-left: 40px;
-  height: 42px;
+  height:42px;
 }
 .inField{position: relative;}
 .btn-primary{
@@ -167,6 +168,16 @@ i.fab.fa-google-play {
 }
 .react-tabs__tab{
   background: #005c7c!important;
+}
+button.downBtn {
+  border: none;
+  background: #fff;
+  padding: 0;
+  cursor: pointer;
+}
+button.downBtn i{margin-right:16px;}
+.bgPage {
+  margin-top: 130px;
 }
 @keyframes App-logo-spin {
   from {
